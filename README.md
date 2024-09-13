@@ -120,7 +120,7 @@ python3 6853 ubuntu    5u  IPv4  34193      0t0  TCP localhost:5000 (LISTEN)
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)  # Listen on all network interfaces
 
-Finally we are good to run the application form from browser through p.ip:5000 and once we filled and submitted the form it will show below images
+## Finally we are good to run the application form from browser through p.ip:5000 and once we filled and submitted the form it will show below images and we can access this data from postgresql and verify the same.
 
 
 ![image](https://github.com/user-attachments/assets/7a759592-f66d-4b29-8c64-71c6fdf844b1)
@@ -128,6 +128,10 @@ Finally we are good to run the application form from browser through p.ip:5000 a
 
 
  ![image](https://github.com/user-attachments/assets/623af479-069a-4db9-99fd-2bd01614f306)
+
+ 
+![image](https://github.com/user-attachments/assets/371f5640-c4cc-46a1-8455-7fe9a8065bfc)
+
 
 
 
