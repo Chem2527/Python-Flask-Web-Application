@@ -10,7 +10,7 @@
     3.  ssh -i key1.pem ubuntu@ec2-18-222-224-70.us-east-2.compute.amazonaws.com  # (here ec2-18-222-224-70.us-east-2.compute.amazonaws.com  is Public Ipv4  DNS of my Ec2)
 
 
-## Run below steps where u want to install Postgresql:
+## Run below steps in Ec2 where u want to host PostgresDb:
 
 1. sudo apt update -y
 
