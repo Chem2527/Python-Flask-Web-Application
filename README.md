@@ -54,11 +54,64 @@ local   all             all                                     md5 )
 
 15. psql -U ubuntu -d mydb # (For testing purpose we will be establishing a connection to database which is owned by ubuntu user)
 
-16. \l #(it will list )
+16. \l #(it will list all the databases )
+
+17. Navigate to ubuntu@postgres:/etc/postgresql/16/main and modify   **postgresql.conf** and look for **#listen_addresses = 'localhost'** and replace it with **listen_addresses = '*'**
+
+18.Navigate to ubuntu@postgres:/etc/postgresql/16/main and modify  modify **pg_hba.conf**  and at bottom add "host    mydb1 # (replace with db u created earlier)   # sai(owner of db)    3.129.8.10/32 #(Ipv4 range)    md5 # (enabling pswd authentication)"   --->  overall # (host    mydb1    sai    3.129.8.10/32    md5
+)
+
+
+19. sudo systemctl restart postgresql
+
+20. sudo service postgresql restart
 
 
 
 
+
+
+
+## Run below commands in Ec2  where we are hosting  the  Python-Flask-Web-Application:
+1. sudo apt update
+
+
+2.  clone the repo using **git clone https://github.com/Chem2527/Python-Flask-Web-Application.git**  # (ensure git is installed)
+
+3. cd Python-Flask-Web-Application/
+
+
+4. python app.py(it will throw error as we didnt installed python)
+
+5. sudo apt install python3
+
+6. python3 --version (shows the installed version for me 3.12)
+
+
+7. sudo add-apt-repository ppa:deadsnakes/ppa
+
+8. sudo apt update
+
+9. sudo apt install python3-pip
+
+10. python3 app.py # (shows error stating ModuleNotFoundError: No module named 'flask')
+
+11. sudo apt-get install python3-flask
+
+12. sudo apt-get install python3-flask-sqlalchemy
+
+
+13. sudo apt install python3-psycopg2
+
+14. 
+
+
+
+
+
+
+
+ 
 
 
 
