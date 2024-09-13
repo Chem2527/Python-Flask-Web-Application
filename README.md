@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/374f3151-0c7d-4caa-a487-49b6cd73ddb6)![image](https://github.com/user-attachments/assets/374f3151-0c7d-4caa-a487-49b6cd73ddb6)![image](https://github.com/user-attachments/assets/374f3151-0c7d-4caa-a487-49b6cd73ddb6)# Python-Flask-Web-Application
+# Python-Flask-Web-Application
 
 ## Connect to EC2 (For both Ec2's(where we have hosted DB,Application)) using below steps
 
@@ -124,6 +124,10 @@ Finally we are good to run the application form from browser through p.ip:5000 a
 
 
  ![image](https://github.com/user-attachments/assets/e9f68124-2a6f-4d67-aa74-99c45665c213)
+
+ ![image](https://github.com/user-attachments/assets/623af479-069a-4db9-99fd-2bd01614f306)
+
+
 
 
 
