@@ -122,10 +122,10 @@ if __name__ == '__main__':
 
 Finally we are good to run the application form from browser through p.ip:5000 and once we filled and submitted the form it will show below images
 
-#### ![image](https://github.com/user-attachments/assets/1955cd56-7a9f-44b3-8c3c-d7b00ebf6ae8)
-#### ![image](https://github.com/user-attachments/assets/e9f68124-2a6f-4d67-aa74-99c45665c213)
+
+ ![image](https://github.com/user-attachments/assets/e9f68124-2a6f-4d67-aa74-99c45665c213)
 ![image](https://github.com/user-attachments/assets/e9f68124-2a6f-4d67-aa74-99c45665c213)
-![image](https://github.com/user-attachments/assets/e9f68124-2a6f-4d67-aa74-99c45665c213)
+
 
 
 
