@@ -124,8 +124,7 @@ Finally we are good to run the application form from browser through p.ip:5000 a
 
 
 ![image](https://github.com/user-attachments/assets/7a759592-f66d-4b29-8c64-71c6fdf844b1)
-![image](https://github.com/user-attachments/assets/7a759592-f66d-4b29-8c64-71c6fdf844b1)
-![image](https://github.com/user-attachments/assets/7a759592-f66d-4b29-8c64-71c6fdf844b1)
+
 
 
  ![image](https://github.com/user-attachments/assets/623af479-069a-4db9-99fd-2bd01614f306)
