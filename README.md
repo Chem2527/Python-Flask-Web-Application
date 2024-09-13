@@ -123,8 +123,7 @@ if __name__ == '__main__':
 Finally we are good to run the application form from browser through p.ip:5000 and once we filled the form 
 
 ![image](https://github.com/user-attachments/assets/1955cd56-7a9f-44b3-8c3c-d7b00ebf6ae8)
-![image](https://github.com/user-attachments/assets/1955cd56-7a9f-44b3-8c3c-d7b00ebf6ae8)
-![image](https://github.com/user-attachments/assets/1955cd56-7a9f-44b3-8c3c-d7b00ebf6ae8)
+
 
 
    
