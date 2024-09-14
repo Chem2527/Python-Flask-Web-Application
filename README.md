@@ -116,9 +116,7 @@ python3 6853 ubuntu    5u  IPv4  34193      0t0  TCP localhost:5000 (LISTEN)
 
 16. sudo kill 6852
 
-17. need to add below content to app.py
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)  # Listen on all network interfaces
+
 
 ## Finally we are good to run the application form from browser through p.ip:5000 and once we filled and submitted the form it will show below images and we can access this data from postgresql and verify the same.
 
