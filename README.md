@@ -77,8 +77,8 @@ local   all             all                                     md5 )
 
 
 ## Run below commands in Ec2  where we are hosting  the  Python-Flask-Web-Application:
+```bash
 1. sudo apt update
-
 
 2.  clone the repo using **git clone https://github.com/Chem2527/Python-Flask-Web-Application.git**  # (ensure git is installed)
 
@@ -116,10 +116,8 @@ python3 6853 ubuntu    4u  IPv4  34193      0t0  TCP localhost:5000 (LISTEN)
 python3 6853 ubuntu    5u  IPv4  34193      0t0  TCP localhost:5000 (LISTEN)
 
 16. sudo kill 6852
-
-
-
-## Finally we are good to run the application form from browser through p.ip:5000 and once we filled and submitted the form it will show below images and we can access this data from postgresql and verify the same.
+```
+### Finally we are good to run the application form from browser through p.ip:5000 and once we filled and submitted the form it will show below images and we can access this data from postgresql and verify the same.
 
 
 ![image](https://github.com/user-attachments/assets/7a759592-f66d-4b29-8c64-71c6fdf844b1)
