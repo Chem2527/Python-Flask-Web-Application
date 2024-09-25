@@ -4,7 +4,7 @@
 I'm using Ubuntu 24.04 as  Os for this demo
 
 ### Note: After creating ec2's open inbound ports( 5000(hosting application on port 5000),(5432 default port for postgresql as application ec2 wants to connect with db ec2 we need to open this port) 
-    1.  Locate the .pem in your local pc and navigate to that folder and open bash 
+    1.#   Locate the .pem in your local pc and navigate to that folder and open bash 
     
     2.  chmod 400 key1.pem  # (key1.pem is the name of my .pem file)
     
