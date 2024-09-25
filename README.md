@@ -1,6 +1,6 @@
 # Python-Flask-Web-Application
 
-## Connect to EC2 (For both Ec2's(where we have hosted DB,Application)) using below steps
+### Connect to EC2 (For both Ec2's(where we have hosted DB,Application)) using below steps
     I'm using Ubuntu 24.04 as  Os for this demo
 
 ### Note: After creating ec2's open inbound ports( 5000(hosting application on port 5000),(5432 default port for postgresql as application ec2 wants to connect with db ec2 we need to open this port) 
@@ -12,7 +12,7 @@
 
 
 ## Run below steps in Ec2 where u want to host PostgresDb:
-
+```bash
 1. sudo apt update -y
 
 2. sudo apt upgrade -y
@@ -66,7 +66,7 @@ local   all             all                                     md5 )
 20. sudo systemctl restart postgresql
 
 21. sudo service postgresql restart
-
+```
 
 
 
